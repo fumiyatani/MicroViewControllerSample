@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		00286247213ED0C800F80291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00286246213ED0C800F80291 /* AppDelegate.swift */; };
-		00286249213ED0C800F80291 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00286248213ED0C800F80291 /* ViewController.swift */; };
+		00286249213ED0C800F80291 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00286248213ED0C800F80291 /* MainViewController.swift */; };
 		0028624C213ED0C800F80291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0028624A213ED0C800F80291 /* Main.storyboard */; };
 		0028624E213ED0CB00F80291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0028624D213ED0CB00F80291 /* Assets.xcassets */; };
 		00286251213ED0CB00F80291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0028624F213ED0CB00F80291 /* LaunchScreen.storyboard */; };
 		0028625C213ED0CB00F80291 /* MicroViewControllerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028625B213ED0CB00F80291 /* MicroViewControllerSampleTests.swift */; };
 		00286267213ED0CB00F80291 /* MicroViewControllerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00286266213ED0CB00F80291 /* MicroViewControllerSampleUITests.swift */; };
+		00286275213ED2E300F80291 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00286274213ED2E300F80291 /* TopViewController.swift */; };
+		00286277213ED32200F80291 /* MidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00286276213ED32200F80291 /* MidViewController.swift */; };
+		00286279213ED33100F80291 /* BottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00286278213ED33100F80291 /* BottomViewController.swift */; };
+		0028627B213ED7E000F80291 /* CustomMidCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028627A213ED7E000F80291 /* CustomMidCollectionViewCell.swift */; };
+		0028627D213ED97600F80291 /* TopCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028627C213ED97600F80291 /* TopCollectionViewController.swift */; };
+		0028627F213ED98800F80291 /* MidCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028627E213ED98800F80291 /* MidCollectionViewController.swift */; };
+		00286281213ED99400F80291 /* BottomCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00286280213ED99400F80291 /* BottomCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		00286243213ED0C800F80291 /* MicroViewControllerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroViewControllerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00286246213ED0C800F80291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00286248213ED0C800F80291 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00286248213ED0C800F80291 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0028624B213ED0C800F80291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0028624D213ED0CB00F80291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00286250213ED0CB00F80291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		00286262213ED0CB00F80291 /* MicroViewControllerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicroViewControllerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00286266213ED0CB00F80291 /* MicroViewControllerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroViewControllerSampleUITests.swift; sourceTree = "<group>"; };
 		00286268213ED0CB00F80291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00286274213ED2E300F80291 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		00286276213ED32200F80291 /* MidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidViewController.swift; sourceTree = "<group>"; };
+		00286278213ED33100F80291 /* BottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomViewController.swift; sourceTree = "<group>"; };
+		0028627A213ED7E000F80291 /* CustomMidCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMidCollectionViewCell.swift; sourceTree = "<group>"; };
+		0028627C213ED97600F80291 /* TopCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCollectionViewController.swift; sourceTree = "<group>"; };
+		0028627E213ED98800F80291 /* MidCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidCollectionViewController.swift; sourceTree = "<group>"; };
+		00286280213ED99400F80291 /* BottomCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +112,18 @@
 			isa = PBXGroup;
 			children = (
 				00286246213ED0C800F80291 /* AppDelegate.swift */,
-				00286248213ED0C800F80291 /* ViewController.swift */,
+				00286248213ED0C800F80291 /* MainViewController.swift */,
 				0028624A213ED0C800F80291 /* Main.storyboard */,
 				0028624D213ED0CB00F80291 /* Assets.xcassets */,
 				0028624F213ED0CB00F80291 /* LaunchScreen.storyboard */,
 				00286252213ED0CB00F80291 /* Info.plist */,
+				00286274213ED2E300F80291 /* TopViewController.swift */,
+				00286276213ED32200F80291 /* MidViewController.swift */,
+				00286278213ED33100F80291 /* BottomViewController.swift */,
+				0028627A213ED7E000F80291 /* CustomMidCollectionViewCell.swift */,
+				0028627C213ED97600F80291 /* TopCollectionViewController.swift */,
+				0028627E213ED98800F80291 /* MidCollectionViewController.swift */,
+				00286280213ED99400F80291 /* BottomCollectionViewController.swift */,
 			);
 			path = MicroViewControllerSample;
 			sourceTree = "<group>";
@@ -256,8 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00286249213ED0C800F80291 /* ViewController.swift in Sources */,
+				00286275213ED2E300F80291 /* TopViewController.swift in Sources */,
+				0028627D213ED97600F80291 /* TopCollectionViewController.swift in Sources */,
+				00286249213ED0C800F80291 /* MainViewController.swift in Sources */,
+				0028627F213ED98800F80291 /* MidCollectionViewController.swift in Sources */,
+				00286279213ED33100F80291 /* BottomViewController.swift in Sources */,
 				00286247213ED0C800F80291 /* AppDelegate.swift in Sources */,
+				0028627B213ED7E000F80291 /* CustomMidCollectionViewCell.swift in Sources */,
+				00286281213ED99400F80291 /* BottomCollectionViewController.swift in Sources */,
+				00286277213ED32200F80291 /* MidViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
