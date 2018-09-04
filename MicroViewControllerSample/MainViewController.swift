@@ -3,6 +3,7 @@
 //  MicroViewControllerSample
 //
 //  Created by 谷郁也 on 2018/09/04.
+//  とりあえずこのプロジェクトで納得するまで作成してみる
 //  Copyright © 2018年 谷郁也. All rights reserved.
 //
 
